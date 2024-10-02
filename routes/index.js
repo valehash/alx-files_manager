@@ -2,8 +2,8 @@ const express = require('express')
 const AppController = require('../controllers/AppController');
 
 const routes = (app) => {
-	app.get('/status', Appcontroller.getStatus);
-	app.get('/stats', Appcontroller.getStats);
+	app.get('/status', AppController.getStatus);
+	app.get('/stats', AppController.getStats);
 }
 
 module.exports = routes;

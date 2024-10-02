@@ -1,11 +1,11 @@
-/*//import { createClient } from "redis"; --ES6 way of calling redis but using commonjs
+//import { createClient } from "redis"; --ES6 way of calling redis but using commonjs
 
 const redis = require('redis');
 
 /**const utilities = require('util');
 const promisify = utilities.promisify(); -Tried to use this in the same manner as declaring redis client
-					- But utilities.promisify() is not a function that returns a promisify function. Instead, utilities.promisify is a function that takes a function as an argument and returns a promisified version of that function.
-*/
+*/					- But utilities.promisify() is not a function that returns a promisify function. Instead, utilities.promisify is a function that takes a function as an argument and returns a promisified version of that function.
+
 
 /* const { promisify } = require('util') // -this works looks like es6 + commonjs
 
